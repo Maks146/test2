@@ -1,0 +1,12 @@
+body{
+    color: white;
+    }
+    div > p{
+        background-color: black;
+    }
+    div > button{
+        color: blue;
+    }
+    #team {
+        background-color: grey;
+    }
