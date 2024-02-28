@@ -9,14 +9,13 @@
 
 
     div > p{
-        background-color: #2F303A;
+        background-color: var(--foter-bg);
     }
     div > button{
-        color: #2196F3;
-        font-family: Roboto;
+        font-family: var(--header-hover);
     }
     .team > p {
-        color: #757575;
+        font-family: var(--comande-main);
     }
     ul :nth-child(1){
         font-weight: 500;
@@ -35,11 +34,63 @@
     }
 
     div:nth-child(3) > p{
-        color: #757575;
+        font-family: var(--mareting-main);
         font-size: 16px;
         font-weight: 400;
     }
 
     .teams{
-        background-color: #F5F4FA;
+        font-family: var(--team-main);
+    }
+
+
+
+
+    .div{
+        display: flex;
+        width: 1170px;
+        margin: 0 auto;
+        justify-content: space-between;
+        margin-bottom: 94px;
+        margin-top: 94px;
+    }
+
+    .div-title{
+        text-align: center;
+        display: flex;
+    }
+
+    .team{
+        display: flex;
+        width: 1170;
+        margin: 0 auto;
+        justify-content: space-between;
+
+    }
+
+    .main-li{
+        width: 270px;
+    }
+
+    .teams{
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+
+    .teams-1{
+        display: flex;
+        width: 1170px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    .teams-1 li{
+        width: 270px;
+        background-color: white;
+        height: 368px;
+    }
+
+    .teams-1 img{
+        width: 270px;
+        height: 260px;
     }
